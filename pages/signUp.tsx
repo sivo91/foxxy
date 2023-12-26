@@ -120,7 +120,7 @@ const Register: React.FC = () => {
                       <hr />
 
                     <div className='text-center'>
-                      <Link href={'/private/login'} 
+                      <Link href={'/login'} 
                             style={{textDecoration: 'none'}}>
                         Sign In
                       </Link>

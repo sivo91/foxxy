@@ -1,11 +1,29 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
+import Icons from '@/components/Icons'
+import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
 
 
 const inter = Inter({ subsets: ['latin'] })
 
+
+
+
+
+
 export default function Home() {
+
+
+
+
+
+
+
+
 
   return (
     <>
@@ -16,8 +34,40 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main style={{paddingBottom:'200px'}}>
          <h4 className='text-center'><q>Foxy&apos;s New Beginning: A Story of Hope and Home</q></h4>
+
+         
+           {/* intro */}
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+            
+                <div className="col-11 col-md-3">
+                  <img src="/foxy/foxy.jpg" 
+                    className="img-fluid my-5" 
+                    style={{borderRadius: '20px', width:'400px'}}
+                    alt="foxy"/>
+                </div>
+
+                <div className="col-11 col-md-3 lead pt-5">
+                  Foxy is a dog who was rescued from a shelter where she was scheduled for euthanasia. Currently, she is temporarily staying with a compassionate individual who adopted her to save her life. Despite the safe haven provided, Foxy is in need of a permanent home. Her current caretaker is actively seeking a loving and stable environment for Foxy, where she can thrive and receive the care and affection she deserves. This search for a new home is driven by the desire to ensure Foxy&apos;s long-term well-being and happiness.
+                </div>
+            
+            </div>  
+          </div> 
+
+
+          <Icons/>
+
+
+          <Link href={'/about'}
+                className='btn btn-primary rounded-1 my-5 vstack mx-auto'
+                style={{width: '250px'}}>
+            Full Story
+          </Link>
+
+
+          
       </main>
     </>
   )

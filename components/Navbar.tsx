@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
-import { BsPersonVcardFill } from "react-icons/bs";
+import { FaRegCircleUser } from "react-icons/fa6";
 import Link from 'next/link';
 import { useSelector, useDispatch } from 'react-redux';
 import { userLogin, userLogOut } from '@/reduxFile/userSlice';
@@ -41,7 +41,7 @@ const Navbar = () => {
      <nav className='d-flex justify-content-between'>
 
          <div>
-           <button className="btn btn-dark ms-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+           <button className="btn btn-light border ms-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
             <GiHamburgerMenu/>
            </button>
 
@@ -53,21 +53,21 @@ const Navbar = () => {
               <div className="offcanvas-body">
 
                <Link href={'/'} 
-                      className='rounded-1 my-3 text-dark fs-5 ms-3' 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
                       onClick={CloseSideBar}
                       style={{textDecoration: 'none'}}>
                 My Journey
               </Link>
               <br />
                <Link href={'/'} 
-                      className='rounded-1 my-3 text-dark fs-5 ms-3' 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
                       onClick={CloseSideBar}
                       style={{textDecoration: 'none'}}>
                 Images
               </Link>
               <br />
                <Link href={'/'} 
-                      className='rounded-1 my-3 text-dark fs-5 ms-3' 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
                       onClick={CloseSideBar}
                       style={{textDecoration: 'none'}}>
                 Videos
@@ -81,8 +81,8 @@ const Navbar = () => {
           <h3 className='mt-4'>The Road Home</h3>
 
          <div>
-          <button className="btn btn-dark me-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-            <BsPersonVcardFill/>
+          <button className="btn btn-light border me-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <FaRegCircleUser/>
           </button>
 
             <div className="offcanvas offcanvas-end" tabIndex={0} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -108,6 +108,7 @@ const Navbar = () => {
               </div>
             </div>
          </div>
+         
     </nav>
 
 
