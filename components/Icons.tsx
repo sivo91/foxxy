@@ -26,13 +26,14 @@ const [item, setItem] = useState<ItemDetails | null>(null)
 const fetchItem = async () => {
       try {
  
-        const response = await axios.get<ItemDetails>('/api/icons/getIcons');
-      //  console.log(response.data)
+        const response = await axios.get<ItemDetails>('/api/icons/getIcons')
+        console.log(response.data)
         setItem(response.data);
       } catch (error) {
         console.error('Error fetching item:', error);
+      
       } finally {
-        setLoading(false);
+        
       }
     };
 
