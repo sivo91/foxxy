@@ -20,15 +20,15 @@ const Index = () => {
           </p>
 
           <br />
-          <p>Far away in Fairfield, in the early hour of Friday morning we made a decision . I woke up at 4 AM,driven by  the silent pleas of helpless animals . The journey ahead was long  a daunting 6.5-hour drive to Los Angeles. But the thought of Foxxy waiting, unknowing of her looming fate, propelled me forward.
+          <p>Far away in Fairfield, in the early hour of Friday morning we made a decision . I woke up at 4 am,driven by  the silent pleas of helpless animals . The journey ahead was long  a daunting 6.5-hour drive to Los Angeles. But the thought of Foxxy waiting, unknowing of her looming fate, propelled me forward.
           </p>
 
           <br />
-          <p>The roads stretched endlessly as the sun began to ascend, casting its golden hues over the landscapes. Time was of the essence. The window for Foxxy&apos;s rescue would close at 13 pm, a non-negotiable deadline set by the shelter. My heart raced with the ticking clock, the urgency mounting with each mile.
+          <p>The roads stretched endlessly as the sun began to ascend, casting its golden hues over the landscapes. Time was of the essence. The window for Foxxy&apos;s rescue would close at 11 am, a non-negotiable deadline set by the shelter. My heart raced with the ticking clock, the urgency mounting with each mile.
           </p>
 
           <br />
-          <p>Finally, at 11 AM, the City of Angeles  and that shelter, a place where hope and despair often walked hand in hand, was in sight. 
+          <p>Finally, at 11 am, the City of Angeles  and that shelter, a place where hope and despair often walked hand in hand, was in sight. 
           And here she was . No shine in her eyes, beaten spirit of a jailed soul.
           And nobody, nobody beside me came to her rescue. 
           </p>
