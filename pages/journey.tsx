@@ -41,7 +41,7 @@ const Index = () => {
           </p>
 
           <br />
-          <p>Foxy&apos;s tale is one of hope, a reminder that even in the darkest hours, there are caring people.</p>
+          <p>Foxxy&apos;s tale is one of hope, a reminder that even in the darkest hours, there are caring people.</p>
 
           </section>
 
