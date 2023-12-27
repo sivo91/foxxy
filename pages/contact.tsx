@@ -16,6 +16,7 @@ const Index: React.FC = () => {
   const [name, setName] = useState<string>('');
   const [msg, setMsg] = useState<string>('');
   const [process, setProcess] = useState<boolean>(false);
+  const [tnx, setTnx] = useState<boolean>(false);
 
   const myFunc = (element: HTMLInputElement): void => {
     if (element) {
@@ -23,14 +24,12 @@ const Index: React.FC = () => {
     }
   };
 
+
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
 
     const data: { email: string; name: string, msg: string } = { email, name, msg };
-
-
-
-
     console.log(data)
 
     const config = {
@@ -38,27 +37,31 @@ const Index: React.FC = () => {
         "Content-Type": "application/json",
       },
     };
-/* 
+
      try {
       setProcess(true);
       
+      const res = await axios.post('/api/contact', data, config);
+      console.log(res.data)
+      toast.success(res.data.message)
 
-      const res = await axios.post('/api/user/register', data, config);
-
-      toast.success(res.data.message);
-
-      setTimeout(() => {
+     /*  setTimeout(() => {
         router.push('login');
-      }, 500);
+      }, 500); */
+      setName('')
+      setEmail('')
+      setMsg('')
 
       setProcess(false);
 
     } catch (error: any) {
-      console.error('Registration failed:', error);
-      toast.error(error.response.data.message);
+      console.error('Registration failed:', error)
       setProcess(false);
-    }  */
+    }  
   };
+
+
+
 
    const handleTextChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setMsg(event.target.value);
@@ -85,7 +88,7 @@ const Index: React.FC = () => {
             className="call-link">707-770-6743
           </a>
       </h4>
-{/* 
+
   <form onSubmit={handleSubmit} className='my-5 rounded-2'>
                       <p className='fs-5 m-0 mb-2 text-center fw-semibold'>User</p>
 
@@ -135,7 +138,7 @@ const Index: React.FC = () => {
                         { process ? 'Processing' : 'Submit'}
                       </button>
 
-                   </form> */}
+                   </form>
 
 
 
