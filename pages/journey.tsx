@@ -11,7 +11,7 @@ const Index = () => {
         <h3 className='text-center my-5'>Foxxy was born twice in her short life.</h3>
         <br />
 
-        <section>
+        <section className='px-2'>
            <p>In the bustling city of San Bernardino, within the somber walls of a shelter, a tale of rescue and compassion began to unfold. Foxxy, a dog with soulful eyes and a gentle spirit, found herself facing a grim fate. Scheduled for euthanasia by the cold morning of December 1st, her time was running out, her chances dwindling with each passing hour.
           </p>
           <br />
