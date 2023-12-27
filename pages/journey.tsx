@@ -36,6 +36,10 @@ const Index = () => {
           <br />
           <p>After a few formalities Foxxy was inside my car and slowly , slowly letting her goodness shine. Her head on my shoulder, then licking my ear we hit the long road ahead of us , stopping only to take bath . 
           No whine, no bark , silently letting me bathed her.
+          </p>
+          <br />
+          
+          <p>
           In next few weeks she started to let other people in her life showing us affection, protection . She is a Velcro dog , loves to press her entire body against human while sleeps, she loves belly rubs and she gruntles softly when she is happy.
           She is a dog that likes to correct other dogs. She would be great for somebody who works from home , or is retired that can be with her . She thrives on love and adores her master and she needs it back. She whines a little when left alone but doesn&apos;t destroy things. 
           </p>
