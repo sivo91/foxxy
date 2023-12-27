@@ -124,7 +124,7 @@ const Navbar = () => {
               </div>
               <div className="offcanvas-body">
                 <div className='rightSide'>
-                    {
+                    {/* {
                       user === null ? (
                         <>
                           <Link href={'/login'}
@@ -152,7 +152,7 @@ const Navbar = () => {
 
                         </>
                       )
-                    }
+                    } */}
                 </div>
               </div>
             </div>
