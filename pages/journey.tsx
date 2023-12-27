@@ -7,7 +7,7 @@ const Index = () => {
   
   return (
     <>
-    
+        <h3 className='text-center my-5'>Foxxy was born twice in her short life.</h3>
     </>
   )
 }

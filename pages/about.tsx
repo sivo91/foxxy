@@ -24,37 +24,7 @@ const Index: React.FC = () => {
 
           {/* about */}
           <div className="col-12 col-md-5 border rounded-2 m-3 p-3">
-            <h4>About Foxy</h4>
-
-            <ul>
-              <li>
-                Foxy has autoimmune ilness inflammatory bowel disaese that affects her stomach as well.
-              </li>
-              <li>
-                 Beffore she was on medication she vomited frequently and had diarrhea evey 2 hours.
-              </li>
-              <li>
-                Now it is controlled with medication and diet.
-              </li>
-              <li>
-                 She hates to be locked up in kennel.
-              </li>
-              <li>
-                 Nothing Interest Her more than  a Food.
-              </li>
-              <li>
-                 She is on a strict diet. She can only eat Ultamino kibble. However, she likes obviously everything else.
-              </li>
-              <li>
-                She needs to be watch not to eat dirt, stones or grass
-              </li>
-              <li>
-                 When she is frustrated and wants to eat she will chew on plastic and wood.
-              </li>
-              <li>
-                She needs to be watched not to eat other dogs food.
-              </li>
-            </ul>
+           
 
             <p className='lead fw-semibold'>
               Spayed/Neutered?
@@ -74,17 +44,17 @@ const Index: React.FC = () => {
             <p className='lead fw-semibold'>
               Friendly with dogs?
             </p>
-            <p>Foxy is <q>Loner</q>, atypical dog personality almost like a cat. Cuddle on her own accord. She is now more settled and does not get into trouble that much. But she is on edge each time she meets new dog, her hair are up although she lover then, but only for a few minutes. She has some guarding issuew with squeaky and fuzzy toys. She is easily startled hence her anxiety turns into reactivity.</p>
+            <p>Yes</p>
 
             <p className='lead fw-semibold'>
               Friendly with children?
             </p>
-            <p>Yes</p>
+            <p>Unknown</p>
 
             <p className='lead fw-semibold'>
               Friendly with cat?
             </p>
-            <p>No</p>
+            <p>Unknown</p>
 
            
             
@@ -99,7 +69,7 @@ const Index: React.FC = () => {
              <p className='lead fw-semibold'>
               Potty break schedule
             </p>
-            <p>3x day</p>
+            <p>2-3x day</p>
 
              <p className='lead fw-semibold'>
               Energy Level?
@@ -119,7 +89,7 @@ const Index: React.FC = () => {
              <p className='lead fw-semibold'>
               Medication?
             </p>
-            <p>Pill - Budesonide daily or every other day or every 3rd day</p>
+            <p>No</p>
 
              <p className='lead fw-semibold'>
               Additional care instructions?
@@ -127,17 +97,11 @@ const Index: React.FC = () => {
    
             <ul>
                <li>
-                We are trying to wean her off medication but not yet successful therefore it will be updated when and if she needs to take it.
-               </li>
-               <li>
-                She has to be watched closely because often eats items that are dangerous.
+                A foxy always wants to be next to a person.
                </li>
             </ul>
 
-
-
           </div>
-
         </div>
       </div>
 
