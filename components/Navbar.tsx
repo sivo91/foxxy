@@ -9,7 +9,7 @@ import { RootState } from '@/reduxFile/store'; // Import RootState
 import axios from 'axios';
 
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
 
   const user = useSelector((state: RootState) => state.userAuth.user);
   console.log(user)
@@ -110,6 +110,13 @@ const Navbar = () => {
                       onClick={CloseSideBar}
                       style={{textDecoration: 'none'}}>
                 Contact
+              </Link>
+              <br />
+               <Link href={'/location'} 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
+                      onClick={CloseSideBar}
+                      style={{textDecoration: 'none'}}>
+                Location
               </Link>
                
 
