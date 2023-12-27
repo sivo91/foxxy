@@ -104,6 +104,13 @@ const Navbar = () => {
                       style={{textDecoration: 'none'}}>
                 Supporters
               </Link>
+              <br />
+               <Link href={'/contact'} 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
+                      onClick={CloseSideBar}
+                      style={{textDecoration: 'none'}}>
+                Contact
+              </Link>
                
 
               </div>
