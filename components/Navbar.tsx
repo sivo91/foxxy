@@ -70,6 +70,13 @@ const Navbar: React.FC = () => {
               </div>
               <div className="offcanvas-body">
 
+                <Link href={'/'} 
+                      className='rounded-1 my-5 text-dark fs-5 ms-3' 
+                      onClick={CloseSideBar}
+                      style={{textDecoration: 'none'}}>
+                 Home
+               </Link>
+               <br />
                <Link href={'/journey'} 
                       className='rounded-1 my-5 text-dark fs-5 ms-3' 
                       onClick={CloseSideBar}
