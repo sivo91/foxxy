@@ -60,7 +60,7 @@ export default function Home() {
           <Icons/>
 
 
-          <Link href={'/about'}
+          <Link href={'/journey'}
                 className='btn btn-primary rounded-1 my-5 vstack mx-auto'
                 style={{width: '250px'}}>
             Full Story
