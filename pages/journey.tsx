@@ -24,7 +24,7 @@ const Index = () => {
           </p>
 
           <br />
-          <p>The roads stretched endlessly as the sun began to ascend, casting its golden hues over the landscapes. Time was of the essence. The window for Foxxy&apos;s rescue would close at 11 am, a non-negotiable deadline set by the shelter. My heart raced with the ticking clock, the urgency mounting with each mile.
+          <p>The roads stretched endlessly as the sun began to ascend, casting its golden hues over the landscapes. Time was of the essence. The window for Foxxy&apos;s rescue would close at 13 pm, a non-negotiable deadline set by the shelter. My heart raced with the ticking clock, the urgency mounting with each mile.
           </p>
 
           <br />
