@@ -11,7 +11,7 @@ const Index: React.FC = () => {
   return (
     <>
        
-       <h3 className='text-center mt-5'>Hi there, I am Foxy</h3>
+       <h3 className='text-center mt-5'>Hi there, I am Foxxy</h3>
        <h6 className='muted text-center'>Siberian Husky</h6>
        <h6 className='muted text-center mb-4'>60 lbs, 2 years, 1 months</h6>
 
@@ -97,7 +97,7 @@ const Index: React.FC = () => {
    
             <ul>
                <li>
-                A foxy always wants to be next to a person.
+                A foxxy always wants to be next to a person.
                </li>
             </ul>
 
