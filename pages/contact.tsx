@@ -51,6 +51,7 @@ const Index: React.FC = () => {
       setName('')
       setEmail('')
       setMsg('')
+      setTnx(true)
 
       setProcess(false);
 
@@ -89,56 +90,74 @@ const Index: React.FC = () => {
           </a>
       </h4>
 
-  <form onSubmit={handleSubmit} className='my-5 rounded-2'>
-                      <p className='fs-5 m-0 mb-2 text-center fw-semibold'>User</p>
+       {
+        tnx === false && (
+          <>
+              <form onSubmit={handleSubmit} className='my-5 rounded-2'>
+                        <p className='fs-5 m-0 mb-2 text-center fw-semibold'>User</p>
 
-                      <div className="mb-3">
-                        <label htmlFor="name" className="form-label">
-                          Name
+                        <div className="mb-3">
+                          <label htmlFor="name" className="form-label">
+                            Name
+                          </label>
+                          <input type="text" 
+                                className="form-control" 
+                                id="name" 
+                                value={name}
+                                onFocus={(e) => myFunc(e.currentTarget)}
+                                onChange={ e => setName(e.target.value)}
+                                placeholder="Enter your Name" />
+                        </div>
+
+                        <div className="mb-3">
+                          <label htmlFor="email" className="form-label">
+                            Email
+                          </label>
+                          <input type="email" 
+                                className="form-control" 
+                                id="email" 
+                                value={email}
+                                onFocus={(e) => myFunc(e.currentTarget)}
+                                onChange={ e => setEmail(e.target.value)}
+                                placeholder="Enter your email" />
+                        </div>
+
+                        <div className="mb-3">
+                        <label htmlFor="exampleFormControlTextarea1" className="form-label">
+                          Message
                         </label>
-                        <input type="text" 
-                              className="form-control" 
-                              id="name" 
-                              value={name}
-                              onFocus={(e) => myFunc(e.currentTarget)}
-                              onChange={ e => setName(e.target.value)}
-                              placeholder="Enter your Name" />
+                        <textarea
+                          className="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows={3}
+                          value={msg}
+                          onChange={handleTextChange}
+                        />
                       </div>
+                        
 
-                      <div className="mb-3">
-                        <label htmlFor="email" className="form-label">
-                          Email
-                        </label>
-                        <input type="email" 
-                              className="form-control" 
-                              id="email" 
-                              value={email}
-                              onFocus={(e) => myFunc(e.currentTarget)}
-                              onChange={ e => setEmail(e.target.value)}
-                              placeholder="Enter your email" />
-                      </div>
+                        <button type="submit" 
+                                disabled={process}
+                                className="btn btn-primary w-100 rounded-1 my-3">
+                          { process ? 'Processing' : 'Submit'}
+                        </button>
 
-                      <div className="mb-3">
-                      <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                        Message
-                      </label>
-                      <textarea
-                        className="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows={3}
-                        value={msg}
-                        onChange={handleTextChange}
-                      />
-                    </div>
-                      
+        </form>
+          </>
+        )
+       }
 
-                      <button type="submit" 
-                              disabled={process}
-                              className="btn btn-primary w-100 rounded-1 my-3">
-                        { process ? 'Processing' : 'Submit'}
-                      </button>
-
-                   </form>
+       {
+        tnx === true && (
+          <>
+             <form className='rounded-3 p-4 my-5'>
+               <h5 className='text-center'>
+                   The email has been sent! We will contact you shortly! 
+               </h5>
+             </form>
+          </>
+        )
+       }
 
 
 
