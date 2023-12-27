@@ -94,9 +94,8 @@ const Index: React.FC = () => {
         tnx === false && (
           <>
               <form onSubmit={handleSubmit} className='my-5 rounded-2'>
-                        <p className='fs-5 m-0 mb-2 text-center fw-semibold'>User</p>
-
-                        <div className="mb-3">
+                      
+                        <div className="my-3">
                           <label htmlFor="name" className="form-label">
                             Name
                           </label>
@@ -129,6 +128,7 @@ const Index: React.FC = () => {
                         <textarea
                           className="form-control"
                           id="exampleFormControlTextarea1"
+                          placeholder='Message'
                           rows={3}
                           value={msg}
                           onChange={handleTextChange}
