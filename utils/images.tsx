@@ -2,10 +2,12 @@
   
  const imgs = [
   [
-    "/foxy/foxy.jpg",
+    "/foxy/foxxy11.jpg",
+    "/foxy/fixx22.jpg",
     "/foxy/foxy2.jpg",
     "/foxy/foxy4.jpg",
      "/foxy/foxy6.jpg",
+
   ],
   [
       "/foxy/foxy1.jpg",
