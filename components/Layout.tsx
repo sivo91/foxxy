@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 
 
 
+
 type LayoutProps = {
    children: ReactNode;
 };
@@ -13,6 +14,8 @@ const Layout = ({ children }: LayoutProps) => (
       <Navbar/> 
       {children}
       <Footer/>
+
+      
   </>
 );
 
