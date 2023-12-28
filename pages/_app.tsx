@@ -12,7 +12,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-
+declare global {
+  interface Window {
+    gtag: (...args: any[]) => void;
+  }
+}
 
 const GA_TRACKING_ID = 'GTM-WLVZD4K5'; // Replace with your GA tracking ID
 
@@ -26,7 +30,9 @@ function handleRouteChange(url: string) {
 
 export default function App({ Component, pageProps }: AppProps) {
 
-  const router = useRouter();
+
+
+ const router = useRouter();
 
   useEffect(() => {
     router.events.on('routeChangeComplete', handleRouteChange);
@@ -47,17 +53,19 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
 
-      <Script
+       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
       />
-      <Script
+
+       <Script
         id="google-analytics"
         strategy="afterInteractive"
       >
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
           gtag('js', new Date());
           gtag('config', '${GA_TRACKING_ID}');
         `}
