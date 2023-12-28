@@ -25,6 +25,15 @@ export default function App({ Component, pageProps }: AppProps) {
       </Provider>  
 
        <ToastContainer position='top-center' limit={1} /> 
+
+
+       <Script async src="https://www.googletagmanager.com/ns.html?id=GTM-WLVZD4K5"/>
+        <Script id="gtag">
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-WLVZD4K5');`}
+        </Script>
     
     </>
   )
