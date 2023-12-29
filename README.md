@@ -1,6 +1,6 @@
-# [Your Website Name]
+# [Foxxy website]
 
-Welcome to [Your Website Name], a platform dedicated to finding a new loving family for my dog. This website is built using TypeScript and MongoDB and aims to connect people who are looking to adopt a dog with those who, regrettably, need to find their pet a new home.
+Welcome to foxxy website, a platform dedicated to finding a new loving family for my dog. This website is built using TypeScript and MongoDB and aims to connect people who are looking to adopt a dog with those who, regrettably, need to find their pet a new home.
 
 ## About the Project
 
