@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { store } from '@/reduxFile/store';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import GTM from '@/pages/gtm'
+
 
 
 
@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
        <ToastContainer position='top-center' limit={1} /> 
 
        
-      <GTM/>
+    
     
     </>
   )
