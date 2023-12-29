@@ -29,9 +29,8 @@ We welcome contributions from the community. Whether it's adding new features, i
 5. **Push to the Branch**: Push your changes to your fork.
 6. **Submit a Pull Request**: Submit a pull request for us to review.
 
-Please read our [Contribution Guidelines](LINK_TO_CONTRIBUTION_GUIDELINES) for more information on how you can contribute.
 
 ## License
 
-This project is open-source and available under the [LICENSE NAME](LINK_TO_LICENSE).
+This project is open-source.
 
