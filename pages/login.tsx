@@ -64,12 +64,17 @@ const Login: React.FC = () => {
           <label htmlFor="email" className="form-label">
             Email
           </label>
-          <input type="email" 
-                 className="form-control" 
-                 id="email" 
-                 value={email}
-                 onChange={ e => setEmail(e.target.value)}
-                 placeholder="Enter your email" />
+          <input 
+              type="email" 
+              className="form-control" 
+              id="email" 
+              value={email}
+              onChange={e => {
+                // ensure value without space
+                const newValue = e.target.value;
+                setEmail(newValue.startsWith(' ') ? newValue.trim() : newValue);
+              }} 
+            />
         </div>
 
         <div className="mb-3">
@@ -80,7 +85,11 @@ const Login: React.FC = () => {
                  className="form-control" 
                  id="password" 
                  value={password}
-                 onChange={ e => setPassword(e.target.value)}
+                 onChange={ e => {
+                  // ensure value without space
+                    const newValue = e.target.value
+                    setPassword(newValue.startsWith(' ') ? newValue.trim() : newValue)
+                 }}
                  placeholder="Enter your password" />
         </div>
 

@@ -173,7 +173,7 @@ const Navbar: React.FC = () => {
 
                         </>
                       )
-                    } */}
+                    }  */}
 
                   <img src="./foxy/foxy.jpg" style={{width: '300px'}} alt="img" />
                   <br />

@@ -78,7 +78,11 @@ const Register: React.FC = () => {
                               id="email" 
                               value={email}
                               onFocus={(e) => myFunc(e.currentTarget)}
-                              onChange={ e => setEmail(e.target.value)}
+                               onChange={ e => {
+                                  // ensure value without space
+                                    const newValue = e.target.value
+                                    setEmail(newValue.startsWith(' ') ? newValue.trim() : newValue)
+                                }}
                               placeholder="Enter your email" />
                       </div>
 
@@ -91,7 +95,11 @@ const Register: React.FC = () => {
                               id="password" 
                               value={password}
                               onFocus={(e) => myFunc(e.currentTarget)}
-                              onChange={ e => setPassword(e.target.value)}
+                               onChange={ e => {
+                                    // ensure value without space
+                                      const pass_value = e.target.value
+                                      setPassword(pass_value.startsWith(' ') ? pass_value.trim() : pass_value)
+                                  }}
                               placeholder="Enter your password" />
                       </div>
 
@@ -104,7 +112,11 @@ const Register: React.FC = () => {
                               id="confirm" 
                               value={confirmPassword}
                               onFocus={(e) => myFunc(e.currentTarget)}
-                              onChange={ e => setConfirmPassword(e.target.value)}
+                              onChange={ e => {
+                                    // ensure value without space
+                                      const confirm_value = e.target.value
+                                      setConfirmPassword(confirm_value.startsWith(' ') ? confirm_value.trim() : confirm_value)
+                                  }}
                               placeholder="Confirm your password" />
                       </div>
 
