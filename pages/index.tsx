@@ -50,6 +50,14 @@ export default function Home() {
                 <div className="col-11 col-md-3 lead pt-5">
                   Foxxy is a dog who was rescued from a shelter where she was scheduled for euthanasia. Currently, she is temporarily staying with a compassionate individual who adopted her to save her life. Despite the safe haven provided, Foxxy is in need of a permanent home. Her current caretaker is actively seeking a loving and stable environment for Foxxy, where she can thrive and receive the care and affection she deserves. This search for a new home is driven by the desire to ensure Foxxy&apos;s long-term well-being and happiness.
                 </div>
+
+                <h5 className='text-center my-2'>Last Update: 1/13/2024</h5>
+                <h5 className='text-center mt-3'>🤝 How You Can Help:</h5>
+                <ul style={{position: 'relative', width: '400px', margin:'0 auto'}}>
+                  <li><strong>Share this message</strong> with family, friends, and fellow animal lovers.</li>
+                  <li><strong>Talk</strong> about Foxy in your community.</li>
+                  <li><strong>Contact Us</strong></li>
+                </ul>
             
             </div>  
           </div> 

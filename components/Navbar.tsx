@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
             </div>
          </div>
 
-          <h3 className='mt-4'>The Road Home</h3>
+          <h3 className='mt-4'> 🐾 The Road to Home 🏡</h3>
 
          <div>
           <button className="btn btn-light border me-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
               </div>
               <div className="offcanvas-body">
                 <div className='rightSide'>
-                     {
+                    {/*  {
                       user === null ? (
                         <>
                           <Link href={'/login'}
@@ -173,11 +173,11 @@ const Navbar: React.FC = () => {
 
                         </>
                       )
-                    }  
+                    }   */}
 
-                  {/* <img src="./foxy/foxy.jpg" style={{width: '300px'}} alt="img" />
+                  <img src="./foxy/foxy.jpg" style={{width: '300px'}} alt="img" />
                   <br />
-                  <img src="./foxy/foxy6.jpg" style={{width: '300px'}} alt="img" /> */}
+                  <img src="./foxy/foxy6.jpg" style={{width: '300px'}} alt="img" /> 
 
                 </div>
               </div>
