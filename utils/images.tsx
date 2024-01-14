@@ -6,7 +6,10 @@
     "/foxy/fixx22.jpg",
     "/foxy/foxy2.jpg",
     "/foxy/foxy4.jpg",
-     "/foxy/foxy6.jpg",
+    "/foxy/foxy6.jpg",
+    "/foxy/foxy12.jpg",
+    "/foxy/foxy13.jpg",
+    "/foxy/foxy14.jpg",
 
   ],
   [

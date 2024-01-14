@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
               </div>
               <div className="offcanvas-body">
                 <div className='rightSide'>
-                    {/* {
+                     {
                       user === null ? (
                         <>
                           <Link href={'/login'}
@@ -173,11 +173,11 @@ const Navbar: React.FC = () => {
 
                         </>
                       )
-                    }  */}
+                    }  
 
-                  <img src="./foxy/foxy.jpg" style={{width: '300px'}} alt="img" />
+                  {/* <img src="./foxy/foxy.jpg" style={{width: '300px'}} alt="img" />
                   <br />
-                  <img src="./foxy/foxy6.jpg" style={{width: '300px'}} alt="img" />
+                  <img src="./foxy/foxy6.jpg" style={{width: '300px'}} alt="img" /> */}
 
                 </div>
               </div>
